@@ -29,6 +29,7 @@ public class CuentaCorriente extends Cuenta{
 			resultado = getSaldo().subtract(monto);
 			setSaldo(resultado);
 			descontarAlSobregiro(resultado);
+			System.out.println("TEST");
 		}
 		
 	}
